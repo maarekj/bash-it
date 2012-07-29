@@ -28,6 +28,7 @@ arcu, quis ultrices lectus orci ut ante. Aliquam mattis interdum porttitor.'
 rmtemp()
 {
     rm -fv *~
+    rm -fv ~*
     rm -fv \#*
 }
 
