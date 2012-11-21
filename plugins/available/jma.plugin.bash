@@ -58,3 +58,7 @@ nmline()
 	local str="NR==$n,NR==$m{print \$0}"
 	awk "$str" $f
 }
+
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi

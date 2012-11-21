@@ -56,3 +56,5 @@ fi
 # Directory
 alias	md='mkdir -p'
 alias	rd='rmdir'
+
+alias emacs='emacs -nw'
