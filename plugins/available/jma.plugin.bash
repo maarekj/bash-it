@@ -30,6 +30,7 @@ rmtemp()
     rm -fv *~
     rm -fv ~*
     rm -fv \#*
+    rm -fv .*~
 }
 
 rmdouble()
